@@ -1,0 +1,17 @@
+# This folder contains the code for the temips tests
+
+# To compile the Adder test, type this command:
+
+  > iverilog -g2005 -Wall -Wno-sensitivity-entire-vector -Wno-sensitivity-entire-array -o lib_mulSingleCyc -I . lib_mulSingleCyc.t.v
+
+  This should generate an executable named "lib_mulSingleCyc".
+
+# To run the compiled executable:
+
+  > ./lib_mulSingleCyc
+
+# To remove the executable:
+
+  > rm lib_mulSingleCyc lib_mulSingleCyc.vcd
+
+  That are the only files that's been generated.
