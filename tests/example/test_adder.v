@@ -5,7 +5,7 @@
 `ifndef TEST_ADDER_V
 `define TEST_ADDER_V
 
-module test_Adder (
+module test_adder (
   input	  [15:0]  in0, in1,
   input	          cin,
   output  [15:0]  out,

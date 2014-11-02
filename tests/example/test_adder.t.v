@@ -2,7 +2,7 @@
 // Test bench
 //==================================
 
-`include "test-Adder.v"
+`include "test_adder.v"
 
 module test;
    reg  [15:0] in0, in1;
@@ -10,7 +10,7 @@ module test;
    wire [15:0] out;
    wire        cout;
 
-   test_Adder dut
+   test_adder dut
      (
       .in0  (in0),
       .in1  (in1),
