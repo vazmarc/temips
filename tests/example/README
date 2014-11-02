@@ -1,0 +1,11 @@
+# This folder contains the code for the temips tests
+
+# To compile the Adder test, type this command:
+
+> iverilog -g2005 -Wall -Wno-sensitivity-entire-vector -Wno-sensitivity-entire-array -o test-Adder -I . test-Adder.t.v
+
+# This should generate an executable named "test-Adder".
+# To run the compiled executable:
+
+> ./test-Adder
+
